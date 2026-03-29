@@ -3,60 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Kristina (Wilson) Dahle | Math PhD Student</title>
+    <title>Kristina Dahle | Math PhD Student</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             line-height: 1.6;
-            background-color: #f9f9f9;
-            color: #333;
+            background-color: #ffffff;
+            color: #111;
         }
+
         header {
-            background: #2c3e50;
-            color: white;
+            background: #000000; /* black */
+            color: #CFAE70; /* Vanderbilt gold */
             padding: 2rem 1rem;
             text-align: center;
         }
+
         nav {
-            background: #34495e;
+            background: #CFAE70;
             padding: 0.5rem;
             text-align: center;
         }
+
         nav a {
-            color: white;
-            margin: 0 10px;
+            color: #000;
+            margin: 0 12px;
             text-decoration: none;
             font-weight: bold;
         }
+
         nav a:hover {
             text-decoration: underline;
         }
+
         section {
-            max-width: 800px;
+            max-width: 900px;
             margin: 2rem auto;
             padding: 0 1rem;
         }
+
         h2 {
-            border-bottom: 2px solid #ddd;
+            border-bottom: 2px solid #CFAE70;
             padding-bottom: 0.3rem;
+            color: #000;
         }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .profile img {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid #CFAE70;
+        }
+
+        .paper {
+            margin-bottom: 1rem;
+        }
+
         footer {
             text-align: center;
             padding: 1rem;
-            background: #2c3e50;
-            color: white;
+            background: #000;
+            color: #CFAE70;
             margin-top: 2rem;
-        }
-        .paper {
-            margin-bottom: 1rem;
         }
     </style>
 </head>
 <body>
 
 <header>
-    <h1>Kristina Dahle</h1>
+    <h1>Kristina (Wilson) Dahle</h1>
     <p>PhD Student in Mathematics</p>
     <p>Vanderbilt University</p>
 </header>
@@ -70,14 +94,17 @@
 
 <section id="about">
     <h2>About</h2>
-    <p>
-        I am a PhD student in mathematics at Vanderbilt. 
-    </p>
+    <div class="profile">
+        <img src="profile.jpg" alt="Kristina Dahle">
+        <p>
+            I am a PhD student in mathematics at Vanderbilt University. I am interested in operator algebras. 
+        </p>
+    </div>
 </section>
 
 <section id="research">
     <h2>Research</h2>
-    
+
     <div class="paper">
         <strong>Paper Title 1</strong><br>
         <em>Journal / Preprint, Year</em><br>
@@ -90,9 +117,7 @@
         <a href="#">[PDF]</a>
     </div>
 
-    <p>
-        More papers available on <a href="#">arXiv</a>.
-    </p>
+    <p>More papers available on <a href="#">arXiv</a>.</p>
 </section>
 
 <section id="teaching">
@@ -106,7 +131,7 @@
 <section id="contact">
     <h2>Contact</h2>
     <p>Email: kristina.dahle@vanderbilt.edu</p>
-    <p>Office: Stevenson 1227H </p>
+    <p>Office: Stevenson Center, Room 1227H</p>
 </section>
 
 <footer>
